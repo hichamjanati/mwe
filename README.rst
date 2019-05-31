@@ -19,7 +19,7 @@ User guide
 
 .. code:: bash
 
-  cd smtr
+  cd sparse-mtr
   python setup.py develop
 
 2. run all preprocessing scripts `compute_*.py`. Make sure that paths to the data are
