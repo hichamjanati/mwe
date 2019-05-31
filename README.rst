@@ -16,9 +16,11 @@ User guide
 ----------
 
 1. install **sparse-mtr:** sparse-mtr is a small package for MWE and all benchmark models.
-  ::
-      cd smtr
-      python setup.py develop
+
+.. code:: bash
+
+  cd smtr
+  python setup.py develop
 
 2. run all preprocessing scripts `compute_*.py`. Make sure that paths to the data are
 adapted in all the script `compute_*.py`, `config.py` and `brain_utils`.
